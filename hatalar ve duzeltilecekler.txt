@@ -1,0 +1,1 @@
+- agenda-edit.php de resim uploadını tanımıyor. bundan kaynaklı olarak resim yüklenmiyor ve eski resim silinmiyor.
