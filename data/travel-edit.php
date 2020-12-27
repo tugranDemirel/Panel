@@ -55,6 +55,7 @@ $getAuthor = $author->fetchAll(PDO::FETCH_ASSOC);
                                 <div class="col-md-8 ml-auto mr-auto">
                                     <div class="form-group">
                                         <img class="avatar avatar-xxl" src="../assets/img/travel/<?= $getTravel['travel_bgimage'] ?>" alt="<?= $getTravel['travel_bgimage'] ?>" srcset="">
+                                        <input type="hidden" name="travel_img" value="<?= $getTravel['travel_bgimage'] ?>">
                                     </div>
                                     <hr style="background-color: white;">
                                     <div class="form-group">

@@ -55,6 +55,7 @@ $getAuthor = $author->fetchAll(PDO::FETCH_ASSOC);
                                 <div class="col-md-8 ml-auto mr-auto">
                                     <div class="form-group">
                                         <img class="avatar avatar-xxl" src="../assets/img/healthLife/<?= $getHealthLife['healthLife_bgimage'] ?>" alt="<?= $getHealthLife['healthLife_bgimage'] ?>" srcset="">
+                                        <input type="hidden" name="healthLife_img" value="<?= $getHealthLife['healthLife_bgimage'] ?>">
                                     </div>
                                     <hr style="background-color: white;">
                                     <div class="form-group">
