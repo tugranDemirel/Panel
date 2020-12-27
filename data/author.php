@@ -44,7 +44,8 @@
 					<?php } ?>
 					<div class="row">
 						<div class="col-md-12">
-							<div class="card">
+                            <form action="../include/database-operations.php" method="post">
+							    <div class="card">
 								<div class="card-header">
 									<div class="d-flex align-items-center">
 										<h4 class="card-title">Yazar Ekle</h4>
@@ -71,7 +72,10 @@
 											<tbody>
 												<?php while($getAuthor = $query->fetch(PDO::FETCH_ASSOC)){?>
 													<tr>
-														<td><?= $getAuthor['author_name_surname'] ?></td>
+														<td>
+                                                            <?= $getAuthor['author_name_surname'] ?>
+                                                            <input type="hidden" name="author_img" value="<?=$getAuthor['author_image']?>">
+                                                        </td>
 														<td><?= $getAuthor['author_authority'] ?></td>
 														<td><?= $getAuthor['author_category'] ?></td>
 														<td><?= $getAuthor['author_mail'] ?></td>
@@ -84,12 +88,10 @@
 																<a type="button" data-toggle="tooltip" href="author-edit.php?id=<?= $getAuthor['author_id']?>" class="btn btn-link btn-primary btn-lg" data-original-title="Düzenle">
 																	<i class="fa fa-edit"></i>
 																</a>
-																<form action="../include/database-operations.php" method="post">
 																	<input type="hidden" name="id" value="<?= $getAuthor['author_id']?>">
 																	<button type="submit" name="authorremove" data-toggle="tooltip" class="btn btn-link btn-danger" data-original-title="Kaldır">
 																		<i class="fa fa-times"></i>
 																	</button>
-																</form>
 															</div>
 														</td>
 													</tr>
@@ -99,6 +101,7 @@
 									</div>
 								</div>
 							</div>
+                            </form>
 						</div>
 					</div>
 				</div>
