@@ -66,7 +66,8 @@ elseif(isset($_POST['authoredit']))
     $phone = preg_replace('/[^0-9]/', '', htmlspecialchars($_POST["phone"]));
     $email = filter_var(htmlspecialchars($_POST["email"]), FILTER_VALIDATE_EMAIL);
     $id = $_POST['id'];
-    
+    $img = $_POST['author_img'];
+
     if($_FILES['images']['tmp_name'])
     {
         
@@ -105,7 +106,8 @@ elseif(isset($_POST['authoredit']))
         ));
 
         if($update)
-        {            
+        {
+            unlink('../assets/img/author/'.$img);
             header('Location: ../data/author-display.php?id='.$id);
         }
         else
@@ -144,6 +146,8 @@ elseif(isset($_POST['authoredit']))
 }
 elseif(isset($_POST['authorremove']))
 {
+    $img = $_POST['author_img'];
+
     $remove = $conn->prepare("DELETE FROM author WHERE author_id=:id");
     $remove->execute(array(
         'id'=>$_POST['id']
@@ -151,6 +155,7 @@ elseif(isset($_POST['authorremove']))
     
     if($remove)
     {
+        unlink('../assets/img/author/'.$img);
         header('Location: ../data/author.php?status=yes');
     }
     else
@@ -373,6 +378,7 @@ elseif(isset($_POST['agendaedit']))
     $author_id = htmlspecialchars(trim($_POST['author_id']));
     $content = $_POST['content'];
     $id = $_POST['agenda_id'];
+    $img = $_POST['agenda_img'];
 
     if($_FILES['images']['tmp_name'])
     {
@@ -409,6 +415,7 @@ elseif(isset($_POST['agendaedit']))
         ));
         if($setQuery)
         {
+            unlink('../assets/img/agenda/'.$img);
             header('Location: ../data/agenda-display.php?id='.$id);
         }
         else
@@ -434,7 +441,7 @@ elseif(isset($_POST['agendaedit']))
     ));
     if($setQuery)
     {
-        header('Location: ../data/agenda-display.php?id='.$id);
+        header('Location: ../data/agenda-display.php?id=');
     }
     else
     {
