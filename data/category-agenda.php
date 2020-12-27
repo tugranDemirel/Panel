@@ -75,7 +75,9 @@
                                                         <input type="hidden" name="agenda_id" value="<?= $getAgenda['agenda_id'] ?>">
 
                                                         <tr>
-                                                            <td><img class="avatar avatar-xl" src="../assets/img/agenda/<?= $getAgenda['agenda_bgimage'] ?>" alt="<?= $getAgenda['agenda_bgimage'] ?>"></td>
+                                                            <td>
+                                                                <img class="avatar avatar-xl" src="../assets/img/agenda/<?= $getAgenda['agenda_bgimage'] ?>" alt="<?= $getAgenda['agenda_bgimage'] ?>">
+                                                            </td>
                                                             <td><?= $getAgenda['author_name_surname'] ?></td>
                                                             <td><?= $getAgenda['agenda_title'] ?></td>
                                                             <td><?= $getAgenda['agenda_subject'] ?></td>

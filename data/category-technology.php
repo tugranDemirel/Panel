@@ -71,7 +71,10 @@
                                                         <input type="hidden" name="technology_id" value="<?= $getTechnology['technology_id'] ?>">
 
                                                         <tr>
-                                                            <td><img class="avatar avatar-xl" src="../assets/img/technology/<?= $getTechnology['technology_bgimage'] ?>" alt="<?= $getTechnology['technology_bgimage'] ?>"></td>
+                                                            <td>
+                                                                <img class="avatar avatar-xl" src="../assets/img/technology/<?= $getTechnology['technology_bgimage'] ?>" alt="<?= $getTechnology['technology_bgimage'] ?>">
+                                                                <input type="hidden" name="bg_name" value="<?= $getTechnology['agenda_bgimage']?>">
+                                                            </td>
                                                             <td><?= $getTechnology['author_name_surname'] ?></td>
                                                             <td><?= $getTechnology['technology_title'] ?></td>
                                                             <td><?= $getTechnology['technology_subject'] ?></td>

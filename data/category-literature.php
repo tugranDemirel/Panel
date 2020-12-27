@@ -71,7 +71,10 @@
                                                         <input type="hidden" name="literature_id" value="<?= $getLiterature['literature_id'] ?>">
 
                                                         <tr>
-                                                            <td><img class="avatar avatar-xl" src="../assets/img/literature/<?= $getLiterature['literature_bgimage'] ?>" alt="<?= $getLiterature['literature_bgimage'] ?>"></td>
+                                                            <td>
+                                                                <img class="avatar avatar-xl" src="../assets/img/literature/<?= $getLiterature['literature_bgimage'] ?>" alt="<?= $getLiterature['literature_bgimage'] ?>">
+                                                                <input type="hidden" name="bg_name" value="<?= $getLiterature['agenda_bgimage']?>">
+                                                            </td>
                                                             <td><?= $getLiterature['author_name_surname'] ?></td>
                                                             <td><?= $getLiterature['literature_title'] ?></td>
                                                             <td><?= $getLiterature['literature_subject'] ?></td>

@@ -71,7 +71,10 @@
                                                         <input type="hidden" name="travel_id" value="<?= $getTravel['travel_id'] ?>">
 
                                                         <tr>
-                                                            <td><img class="avatar avatar-xl" src="../assets/img/travel/<?= $getTravel['travel_bgimage'] ?>" alt="<?= $getTravel['travel_bgimage'] ?>"></td>
+                                                            <td>
+                                                                <img class="avatar avatar-xl" src="../assets/img/travel/<?= $getTravel['travel_bgimage'] ?>" alt="<?= $getTravel['travel_bgimage'] ?>">
+                                                                <input type="hidden" name="bg_name" value="<?= $getTravel['agenda_bgimage']?>">
+                                                            </td>
                                                             <td><?= $getTravel['author_name_surname'] ?></td>
                                                             <td><?= $getTravel['travel_title'] ?></td>
                                                             <td><?= $getTravel['travel_subject'] ?></td>

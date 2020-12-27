@@ -71,7 +71,10 @@
                                                         <input type="hidden" name="healthLife_id" value="<?= $gethealthLife['healthLife_id'] ?>">
 
                                                         <tr>
-                                                            <td><img class="avatar avatar-xl" src="../assets/img/healthLife/<?= $gethealthLife['healthLife_bgimage'] ?>" alt="<?= $gethealthLife['healthLife_bgimage'] ?>"></td>
+                                                            <td>
+                                                                <img class="avatar avatar-xl" src="../assets/img/healthLife/<?= $gethealthLife['healthLife_bgimage'] ?>" alt="<?= $gethealthLife['healthLife_bgimage'] ?>">
+                                                                <input type="hidden" name="bg_name" value="<?= $gethealthLife['agenda_bgimage']?>">
+                                                            </td>
                                                             <td><?= $gethealthLife['author_name_surname'] ?></td>
                                                             <td><?= $gethealthLife['healthLife_title'] ?></td>
                                                             <td><?= $gethealthLife['healthLife_subject'] ?></td>
