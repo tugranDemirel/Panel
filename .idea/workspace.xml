@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="335bdf08-0d78-45cb-95ae-67fad2a02668" name="Default Changelist" comment="ilgili yazının img bilgisini çekme işlemi">
+      <change beforePath="$PROJECT_DIR$/assets/img/author/2459242831402967Screenshot 2020-10-08 160858.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/author/3163293231842619Screenshot 2020-10-08 160858.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hatalar ve duzeltilecekler.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hatalar ve duzeltilecekler.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/database-operations.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/database-operations.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1mF50EGS9gvWBH9MFC6k0oujdsd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="335bdf08-0d78-45cb-95ae-67fad2a02668" name="Default Changelist" comment="" />
+      <created>1609076274720</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609076274720</updated>
+      <workItem from="1609076277754" duration="655000" />
+      <workItem from="1609080861458" duration="5931000" />
+    </task>
+    <task id="LOCAL-00001" summary="img alt etiketlerinin oluşturulması">
+      <created>1609102451319</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1609102451319</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ilgili kisinin resim bilgilerinin çekilmesi">
+      <created>1609103107693</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1609103107693</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ilgili yazarın resim bilgilerinin çekilmesi">
+      <created>1609103260261</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1609103260261</updated>
+    </task>
+    <task id="LOCAL-00004" summary="ilgili yazarın resim bilgilerinin çekilmesi">
+      <created>1609104747363</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1609104747363</updated>
+    </task>
+    <task id="LOCAL-00005" summary="ilgili yazarın resim bilgilerinin çekilmesi">
+      <created>1609104957727</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1609104957727</updated>
+    </task>
+    <task id="LOCAL-00006" summary="ilgili yazarın resim bilgilerinin çekilmesi">
+      <created>1609105339269</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1609105339269</updated>
+    </task>
+    <task id="LOCAL-00007" summary="hatalar ve düzeltilecekler listesi">
+      <created>1609105496111</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1609105496111</updated>
+    </task>
+    <task id="LOCAL-00008" summary="ilgili yazının img bilgisini çekme işlemi">
+      <created>1609106186537</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1609106186538</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="img alt etiketlerinin oluşturulması" />
+    <MESSAGE value="ilgili kisinin resim bilgilerinin çekilmesi" />
+    <MESSAGE value="ilgili yazarın resim bilgilerinin çekilmesi" />
+    <MESSAGE value="hatalar ve düzeltilecekler listesi" />
+    <MESSAGE value="ilgili yazının img bilgisini çekme işlemi" />
+    <option name="LAST_COMMIT_MESSAGE" value="ilgili yazının img bilgisini çekme işlemi" />
+  </component>
+</project>
