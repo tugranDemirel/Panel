@@ -1,1 +1,2 @@
 - agenda-edit.php de resim uploadını tanımıyor. bundan kaynaklı olarak resim yüklenmiyor ve eski resim silinmiyor.
+- author-display/edit.php ve agenda-display/edit.php dışındaki display/edit.php de ekrana getirme sorunu var. Git e yüklendikten sonra oluştu.
