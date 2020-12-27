@@ -47,6 +47,7 @@
 												
 													<div class="form-group">
 														<img class="avatar avatar-xxl" src="../assets/img/author/<?= $getQuery['author_image']?>" alt="<?= $getQuery['author_image'] ?>" srcset="">
+                                                        <input type="hidden" name="author_img" value="<?= $getQuery['author_image']?>?>">
 													</div>
 													<hr>
 													<div class="form-group">
