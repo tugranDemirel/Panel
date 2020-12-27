@@ -46,7 +46,7 @@
 											<div class="col-md-8 ml-auto mr-auto">
 												
 													<div class="form-group">
-														<img class="avatar avatar-xxl" src="../assets/img/author/<?= $getQuery['author_image'] ?>" alt="" srcset="">
+														<img class="avatar avatar-xxl" src="../assets/img/author/<?= $getQuery['author_image']?>" alt="<?= $getQuery['author_image'] ?>" srcset="">
 													</div>
 													<hr>
 													<div class="form-group">

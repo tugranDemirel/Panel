@@ -52,9 +52,7 @@ $getAuthor = $author->fetchAll(PDO::FETCH_ASSOC);
                             <div class="row">
                                 <div class="col-md-8 ml-auto mr-auto">
                                     <div class="form-group">
-                                        <img class="avatar avatar-xxl"
-                                             src="../assets/img/travel/<?= $getTravel['travel_bgimage'] ?>"
-                                             alt="<?= $getTravel['travel_bgimage'] ?>" srcset="">
+                                        <img class="avatar avatar-xxl" src="../assets/img/travel/<?= $getTravel['travel_bgimage'] ?>" alt="<?= $getTravel['travel_bgimage'] ?>" srcset="">
                                     </div>
                                     <hr style="background: white;">
                                     <div class="form-group">
