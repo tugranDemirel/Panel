@@ -54,7 +54,8 @@ $getAuthor = $author->fetchAll(PDO::FETCH_ASSOC);
                             <div class="row">
                                 <div class="col-md-8 ml-auto mr-auto">
                                     <div class="form-group">
-                                        <img class="avatar avatar-xxl" src="../assets/img/agenda/<?= $getAgenda['agenda_bgimage'] ?>" alt="<?= $getAgenda['agenda_bgimage'] ?>" srcset="">
+                                        <img class="avatar avatar-xxl" src="../assets/img/agenda/<?= $getAgenda['agenda_bgimage'] ?>" alt="<?= $getAgenda['agenda_bgimage'] ?>" >
+                                        <input type="hidden" name="agenda_img" value="<?= $getAgenda['agenda_bgimage'] ?>">
                                     </div>
                                     <hr style="background-color: white;">
                                     <div class="form-group">
