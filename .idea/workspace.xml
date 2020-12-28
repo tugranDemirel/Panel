@@ -1,10 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="335bdf08-0d78-45cb-95ae-67fad2a02668" name="Default Changelist" comment="ilgili yazının img bilgisini çekme işlemi">
-      <change beforePath="$PROJECT_DIR$/assets/img/author/2459242831402967Screenshot 2020-10-08 160858.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/author/3163293231842619Screenshot 2020-10-08 160858.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hatalar ve duzeltilecekler.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hatalar ve duzeltilecekler.txt" afterDir="false" />
+    <list default="true" id="335bdf08-0d78-45cb-95ae-67fad2a02668" name="Default Changelist" comment="author-edit.php de resim upload isleminde eski resimi silme islemi ve author.php de ki remove isleminde resim silme olayı yapıldı.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/agenda/2121309429382885logo_transparent_bayrak.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/agenda/2133281628422603Screenshot 2020-10-08 160858.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/agenda/2182297831343004BirWebSiitesindeBulunanlar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/agenda/2275280521052138logo_transparent_bayrak.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/agenda/2287266922113075logo_transparent_bayrak.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/agenda/2334222123132111logo_transparent_bayrak.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/agenda/2371225723142903Screenshot 2020-12-16 005129.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/agenda/2385316230172861logo_transparent_bayrak.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/agenda/2408289131032403Screenshot 2020-11-14 202503.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/agenda/2422266629742667logo_transparent_bayrak.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/agenda/2438227325092353Screenshot 2020-11-14 202503.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/agenda/2563302824712002logo_transparent_bayrak.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/agenda/2604227923012154BirWebSiitesindeBulunanlar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/agenda/2609269420313068logo_transparent_bayrak.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/agenda/2650254622662554Screenshot 2020-10-08 160858.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/agenda/2679247525502267Screenshot 2020-11-14 202503.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/agenda/2759230124872393BirWebSiitesindeBulunanlar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/agenda/2767315223902203Screenshot 2020-12-16 005129.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/agenda/2789317430732544BirWebSiitesindeBulunanlar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/agenda/2843252624862797BirWebSiitesindeBulunanlar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/agenda/2927312026242611Screenshot 2020-10-08 160858.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/agenda/2932247521263124BirWebSiitesindeBulunanlar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/agenda/3025316822273188Screenshot 2020-10-08 160858.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/agenda/3127212124302557Screenshot 2020-12-16 005129.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/agenda/3151291528822094Screenshot 2020-10-08 160858.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/author/2060246128192145BirWebSiitesindeBulunanlar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/author/2156216830212508slider.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/author/2194271221642024Screenshot 2020-10-08 160858.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/author/2218260222512329Screenshot 2020-10-08 160858.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/author/2613270726072444Screenshot 2020-10-08 160858.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/author/2658209323682142FEDERASYON_PERILERI_YALNIZ_BIRAKMADI.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/author/2660253630912275Screenshot 2020-10-08 160858.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/author/2725279831972337Screenshot 2020-10-08 160858.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/healthLife/2114305828163095Screenshot 2020-10-08 160858.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/healthLife/2253247125203092Screenshot 2020-10-08 160858.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/healthLife/2338229927512341Screenshot 2020-12-16 005129.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/healthLife/2546208127752736Screenshot 2020-10-08 160858.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/healthLife/2657275622232204Screenshot 2020-10-08 160858.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/healthLife/2751270228082296Screenshot 2020-10-08 160858.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/healthLife/2765269926063112BirWebSiitesindeBulunanlar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/healthLife/2782212820412837Screenshot 2020-12-16 005129.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/healthLife/2872279027623141BirWebSiitesindeBulunanlar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/literature/2288250123012216Screenshot 2020-10-08 160858.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/literature/2760275528992572Screenshot 2020-10-08 160858.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/literature/2992210320062706Screenshot 2020-12-16 005129.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/literature/3035229720042193BirWebSiitesindeBulunanlar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/literature/3178281730112894BirWebSiitesindeBulunanlar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/technology/2009319130912136BirWebSiitesindeBulunanlar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/technology/2028311720092041Screenshot 2020-11-14 202503.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/technology/2036313421712843Screenshot 2020-10-08 160858.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/technology/2052290527823065BirWebSiitesindeBulunanlar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/technology/2065297026152732Screenshot 2020-10-08 160858.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/technology/2184245431932669Screenshot 2020-11-14 202503.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/technology/2249233928322881Screenshot 2020-10-08 160858.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/technology/2320299624533120Screenshot 2020-11-14 202503.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/technology/2335286331262588Screenshot 2020-11-14 202503.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/technology/2388203624992143Screenshot 2020-10-08 160858.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/technology/2427257020092223Screenshot 2020-10-08 160858.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/technology/2505299928432750Screenshot 2020-10-08 160858.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/technology/2507267630172358Screenshot 2020-11-14 202503.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/technology/2537311530342938Screenshot 2020-10-08 160858.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/technology/2545250622992018Screenshot 2020-10-08 160858.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/technology/2549228028862810Screenshot 2020-10-08 160858.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/technology/2600251327172702Screenshot 2020-11-14 202503.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/technology/2618293527282382Screenshot 2020-11-14 202503.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/technology/2755220724672974BirWebSiitesindeBulunanlar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/technology/2758256327962989Screenshot 2020-11-14 202503.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/technology/2832215129002384Screenshot 2020-11-14 202503.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/technology/2860221726152549Screenshot 2020-11-14 202503.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/technology/2887241525642794Screenshot 2020-11-14 202503.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/technology/2892278523753190Screenshot 2020-10-08 160858.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/technology/2901248030273159Screenshot 2020-10-08 160858.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/technology/2953263721222896Screenshot 2020-10-08 160858.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/technology/2997270724833131Screenshot 2020-11-14 202503.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/technology/3090245431352975Screenshot 2020-10-08 160858.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/technology/3105277026882436Screenshot 2020-11-14 202503.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/technology/3150267125132852Screenshot 2020-10-08 160858.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/technology/3196298621142462Screenshot 2020-10-08 160858.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/travel/2062216823052103Screenshot 2020-12-16 005129.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/travel/2177294824412439Screenshot 2020-10-08 160858.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/travel/2222308424782088BirWebSiitesindeBulunanlar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/travel/2334261129112517BirWebSiitesindeBulunanlar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/travel/2353209130062594Screenshot 2020-10-08 160858.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/travel/2356288720832356Screenshot 2020-12-16 005129.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/travel/2370241623093044Screenshot 2020-10-08 160858.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/travel/2405286524702643Screenshot 2020-10-08 160858.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/travel/2640260028962162Screenshot 2020-10-08 160858.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/travel/2672214227362555Screenshot 2020-12-16 005129.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/travel/2997204224902150BirWebSiitesindeBulunanlar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/travel/3087283722802314Screenshot 2020-10-08 160858.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/travel/3182304727973149Screenshot 2020-10-08 160858.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/travel-display.php" beforeDir="false" afterPath="$PROJECT_DIR$/data/travel-display.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/include/database-operations.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/database-operations.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +135,8 @@
       <option name="presentableId" value="Default" />
       <updated>1609076274720</updated>
       <workItem from="1609076277754" duration="655000" />
-      <workItem from="1609080861458" duration="5931000" />
+      <workItem from="1609080861458" duration="6164000" />
+      <workItem from="1609182406632" duration="846000" />
     </task>
     <task id="LOCAL-00001" summary="img alt etiketlerinin oluşturulması">
       <created>1609102451319</created>
@@ -103,7 +194,28 @@
       <option name="project" value="LOCAL" />
       <updated>1609106186538</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="hata ekleme">
+      <created>1609106870367</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1609106870367</updated>
+    </task>
+    <task id="LOCAL-00010" summary="author-edit.php de resim upload isleminde eski resimi silme islemi ve author.php de ki remove isleminde resim silme olayı yapıldı.">
+      <created>1609107044358</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1609107044358</updated>
+    </task>
+    <task id="LOCAL-00011" summary="author-edit.php de resim upload isleminde eski resimi silme islemi ve author.php de ki remove isleminde resim silme olayı yapıldı.">
+      <created>1609107065617</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1609107065617</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +231,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="img alt etiketlerinin oluşturulması" />
@@ -126,6 +239,8 @@
     <MESSAGE value="ilgili yazarın resim bilgilerinin çekilmesi" />
     <MESSAGE value="hatalar ve düzeltilecekler listesi" />
     <MESSAGE value="ilgili yazının img bilgisini çekme işlemi" />
-    <option name="LAST_COMMIT_MESSAGE" value="ilgili yazının img bilgisini çekme işlemi" />
+    <MESSAGE value="hata ekleme" />
+    <MESSAGE value="author-edit.php de resim upload isleminde eski resimi silme islemi ve author.php de ki remove isleminde resim silme olayı yapıldı." />
+    <option name="LAST_COMMIT_MESSAGE" value="author-edit.php de resim upload isleminde eski resimi silme islemi ve author.php de ki remove isleminde resim silme olayı yapıldı." />
   </component>
 </project>
