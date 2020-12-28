@@ -53,7 +53,7 @@
 													<div class="form-group">
 														<label >Kategori</label>
 														<input type="text" class="form-control" name="category" id="category" placeholder="Kategori Adı">
-														<small id="categoryHelp" class="form-text text-muted">Teknoloji<br>Yaşam Sağlık<br>Gündem<br>Edebiyat<br>Seyehat Gezi<br>şeklinde isimlerini yazınız!</small>
+														<small id="categoryHelp" class="form-text text-muted">Teknoloji<br>Sağlık Yaşam<br>Gündem<br>Edebiyat<br>Seyehat Gezi<br>şeklinde isimlerini yazınız!</small>
 													</div>							
 													<div class="form-group">
 														<label >Telefon Numarası</label>
