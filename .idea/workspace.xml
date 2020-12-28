@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="335bdf08-0d78-45cb-95ae-67fad2a02668" name="Default Changelist" comment="yazarlar ve yazıların tamamının temizlenmesi(fotograflar dahil).">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/author-add.php" beforeDir="false" afterPath="$PROJECT_DIR$/data/author-add.php" afterDir="false" />
+    <list default="true" id="335bdf08-0d78-45cb-95ae-67fad2a02668" name="Default Changelist" comment="yazar kategori kısmının düzenlenmesi">
       <change beforePath="$PROJECT_DIR$/data/travel-display.php" beforeDir="false" afterPath="$PROJECT_DIR$/data/travel-display.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/include/database-operations.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/database-operations.php" afterDir="false" />
     </list>
@@ -46,7 +44,7 @@
       <updated>1609076274720</updated>
       <workItem from="1609076277754" duration="655000" />
       <workItem from="1609080861458" duration="6164000" />
-      <workItem from="1609182406632" duration="1382000" />
+      <workItem from="1609182406632" duration="1889000" />
     </task>
     <task id="LOCAL-00001" summary="img alt etiketlerinin oluşturulması">
       <created>1609102451319</created>
@@ -132,7 +130,21 @@
       <option name="project" value="LOCAL" />
       <updated>1609183299071</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="kategori kısmının düzenlenmesi">
+      <created>1609183805539</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1609183805539</updated>
+    </task>
+    <task id="LOCAL-00014" summary="yazar kategori kısmının düzenlenmesi">
+      <created>1609183997675</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1609183997675</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +171,8 @@
     <MESSAGE value="hata ekleme" />
     <MESSAGE value="author-edit.php de resim upload isleminde eski resimi silme islemi ve author.php de ki remove isleminde resim silme olayı yapıldı." />
     <MESSAGE value="yazarlar ve yazıların tamamının temizlenmesi(fotograflar dahil)." />
-    <option name="LAST_COMMIT_MESSAGE" value="yazarlar ve yazıların tamamının temizlenmesi(fotograflar dahil)." />
+    <MESSAGE value="kategori kısmının düzenlenmesi" />
+    <MESSAGE value="yazar kategori kısmının düzenlenmesi" />
+    <option name="LAST_COMMIT_MESSAGE" value="yazar kategori kısmının düzenlenmesi" />
   </component>
 </project>
