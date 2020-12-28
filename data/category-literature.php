@@ -73,7 +73,7 @@
                                                         <tr>
                                                             <td>
                                                                 <img class="avatar avatar-xl" src="../assets/img/literature/<?= $getLiterature['literature_bgimage'] ?>" alt="<?= $getLiterature['literature_bgimage'] ?>">
-                                                                <input type="hidden" name="bg_name" value="<?= $getLiterature['agenda_bgimage']?>">
+
                                                             </td>
                                                             <td><?= $getLiterature['author_name_surname'] ?></td>
                                                             <td><?= $getLiterature['literature_title'] ?></td>
@@ -88,9 +88,10 @@
                                                                     <a type="button" data-toggle="tooltip" href="literature-edit.php?id=<?= $getLiterature['literature_id']?>" class="btn btn-link btn-primary btn-lg" data-original-title="Düzenle">
                                                                         <i class="fa fa-edit"></i>
                                                                     </a>
-                                                                    <form action="../include/database-operations.php" method="post" ></form>
+                                                                    <form action="../include/database-operations.php" method="post" >
+                                                                        <input type="hidden" name="bg_name" value="<?= $getLiterature['literature_bgimage']?>">
                                                                         <input type="hidden" name="id" value="<?= $getLiterature['literature_id']?>">
-                                                                        <button type="submit" name="literaturedaremove" data-toggle="tooltip" class="btn btn-link btn-danger" data-original-title="Kaldır">
+                                                                        <button type="submit" name="literatureremove" data-toggle="tooltip" class="btn btn-link btn-danger" data-original-title="Kaldır">
                                                                             <i class="fa fa-times"></i>
                                                                         </button>
                                                                     </form>

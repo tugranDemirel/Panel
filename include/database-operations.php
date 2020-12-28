@@ -94,6 +94,7 @@ elseif(isset($_POST['authoredit']))
             author_category=:category,
             author_phone=:phone,
             author_mail=:email
+            WHERE author_id={$_POST['id']}
         ");
     
         $update = $query->execute(array(
@@ -441,11 +442,31 @@ elseif(isset($_POST['agendaedit']))
     ));
     if($setQuery)
     {
-        header('Location: ../data/agenda-display.php?id=');
+        header('Location: ../data/agenda-display.php?id='.$id);
     }
     else
     {
         header('Location: ../data/agenda.php?id='.$id.'&&status=no');
+    }
+}
+
+elseif(isset($_POST['agendaremove']))
+{
+    $img = $_POST['agenda_img'];
+
+    $remove = $conn->prepare("DELETE FROM agenda WHERE agenda_id=:id");
+    $remove->execute(array(
+        'id'=>$_POST['id']
+    ));
+
+    if($remove)
+    {
+        unlink('../assets/img/agenda/'.$img);
+        header('Location: ../data/category-agenda.php?status=yes');
+    }
+    else
+    {
+        header('Location: ../data/category-agenda.php?status=no');
     }
 }
 
@@ -578,6 +599,26 @@ elseif(isset($_POST['technologyedit']))
     }
 }
 
+elseif(isset($_POST['technologyremove']))
+{
+    $img = $_POST['bg_name'];
+
+    $remove = $conn->prepare("DELETE FROM technology WHERE technology_id=:id");
+    $remove->execute(array(
+        'id'=>$_POST['id']
+    ));
+
+    if($remove)
+    {
+        unlink('../assets/img/technology/'.$img);
+        header('Location: ../data/category-technology.php?status=yes');
+    }
+    else
+    {
+        header('Location: ../data/category-technology.php?status=no');
+    }
+}
+
 elseif(isset($_POST['literaturesave']))
 {
     $title = htmlspecialchars(trim($_POST['literaturetitle']));
@@ -704,6 +745,26 @@ elseif(isset($_POST['literatureedit']))
     else
     {
         header('Location: ../data/literature.php?id='.$id.'&&status=no');
+    }
+}
+
+elseif(isset($_POST['literatureremove']))
+{
+    $img = $_POST['bg_name'];
+
+    $remove = $conn->prepare("DELETE FROM literature WHERE literature_id=:id");
+    $remove->execute(array(
+        'id'=>$_POST['id']
+    ));
+
+    if($remove)
+    {
+        unlink('../assets/img/literature/'.$img);
+        header('Location: ../data/category-literature.php?status=yes');
+    }
+    else
+    {
+        header('Location: ../data/category-literature.php?status=no');
     }
 }
 
@@ -836,6 +897,26 @@ elseif(isset($_POST['traveledit']))
     }
 }
 
+elseif(isset($_POST['travelremove']))
+{
+    $img = $_POST['bg_name'];
+
+    $remove = $conn->prepare("DELETE FROM travel WHERE travel_id=:id");
+    $remove->execute(array(
+        'id'=>$_POST['id']
+    ));
+
+    if($remove)
+    {
+        unlink('../assets/img/travel/'.$img);
+        header('Location: ../data/category-travel.php?status=yes');
+    }
+    else
+    {
+        header('Location: ../data/category-travel.php?status=no');
+    }
+}
+
 elseif(isset($_POST['healthLifesave']))
 {
     $title = htmlspecialchars(trim($_POST['healthLifetitle']));
@@ -963,6 +1044,26 @@ elseif(isset($_POST['healthLifeedit']))
     else
     {
         header('Location: ../data/healthLife.php?id='.$id.'&&status=no');
+    }
+}
+
+elseif(isset($_POST['healthLiferemove']))
+{
+    $img = $_POST['bg_name'];
+
+    $remove = $conn->prepare("DELETE FROM healt_life WHERE healthLife_id=:id");
+    $remove->execute(array(
+        'id'=>$_POST['id']
+    ));
+
+    if($remove)
+    {
+        unlink('../assets/img/healthLife/'.$img);
+        header('Location: ../data/category-health-life.php?status=yes');
+    }
+    else
+    {
+        header('Location: ../data/category-health-life.php?status=no');
     }
 }
 

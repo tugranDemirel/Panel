@@ -73,7 +73,7 @@
                                                         <tr>
                                                             <td>
                                                                 <img class="avatar avatar-xl" src="../assets/img/travel/<?= $getTravel['travel_bgimage'] ?>" alt="<?= $getTravel['travel_bgimage'] ?>">
-                                                                <input type="hidden" name="bg_name" value="<?= $getTravel['agenda_bgimage']?>">
+
                                                             </td>
                                                             <td><?= $getTravel['author_name_surname'] ?></td>
                                                             <td><?= $getTravel['travel_title'] ?></td>
@@ -88,7 +88,8 @@
                                                                     <a type="button" data-toggle="tooltip" href="travel-edit.php?id=<?= $getTravel['travel_id']?>" class="btn btn-link btn-primary btn-lg" data-original-title="Düzenle">
                                                                         <i class="fa fa-edit"></i>
                                                                     </a>
-                                                                    <form action="../include/database-operations.php" method="post" ></form>
+                                                                    <form action="../include/database-operations.php" method="post" >
+                                                                        <input type="hidden" name="bg_name" value="<?= $getTravel['agenda_bgimage']?>">
                                                                         <input type="hidden" name="id" value="<?= $getTravel['travel_id']?>">
                                                                         <button type="submit" name="travelremove" data-toggle="tooltip" class="btn btn-link btn-danger" data-original-title="Kaldır">
                                                                             <i class="fa fa-times"></i>

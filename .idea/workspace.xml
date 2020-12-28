@@ -1,9 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="335bdf08-0d78-45cb-95ae-67fad2a02668" name="Default Changelist" comment="Yazar ve fotografların eklenmesi">
+    <list default="true" id="335bdf08-0d78-45cb-95ae-67fad2a02668" name="Default Changelist" comment="ilgili kısımların doldurulması">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/agenda/3043236422022945agenda (2).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/healthLife/2252261931513063healt_life (4).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/healthLife/3126307031362713healt_life (4).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/literature/2662268028662495healt_life (1).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/technology/2024263326832949technology  (1).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/technology/2194319623752056technology  (4).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/technology/2561218225552763technology  (3).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/technology/3033243921572273technology  (2).jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/category-agenda.php" beforeDir="false" afterPath="$PROJECT_DIR$/data/category-agenda.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/category-health-life.php" beforeDir="false" afterPath="$PROJECT_DIR$/data/category-health-life.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/category-literature.php" beforeDir="false" afterPath="$PROJECT_DIR$/data/category-literature.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/category-technology.php" beforeDir="false" afterPath="$PROJECT_DIR$/data/category-technology.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/category-travel.php" beforeDir="false" afterPath="$PROJECT_DIR$/data/category-travel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/travel-display.php" beforeDir="false" afterPath="$PROJECT_DIR$/data/travel-display.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hatalar ve duzeltilecekler.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hatalar ve duzeltilecekler.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/include/database-operations.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/database-operations.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +59,7 @@
       <updated>1609076274720</updated>
       <workItem from="1609076277754" duration="655000" />
       <workItem from="1609080861458" duration="6164000" />
-      <workItem from="1609182406632" duration="3901000" />
+      <workItem from="1609182406632" duration="8864000" />
     </task>
     <task id="LOCAL-00001" summary="img alt etiketlerinin oluşturulması">
       <created>1609102451319</created>
@@ -159,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609184352122</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="ilgili kısımların doldurulması">
+      <created>1609187579829</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1609187579829</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,6 +210,18 @@
     <MESSAGE value="kategori kısmının düzenlenmesi" />
     <MESSAGE value="yazar kategori kısmının düzenlenmesi" />
     <MESSAGE value="Yazar ve fotografların eklenmesi" />
-    <option name="LAST_COMMIT_MESSAGE" value="Yazar ve fotografların eklenmesi" />
+    <MESSAGE value="ilgili kısımların doldurulması" />
+    <option name="LAST_COMMIT_MESSAGE" value="ilgili kısımların doldurulması" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/data/category-agenda.php</url>
+          <line>69</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

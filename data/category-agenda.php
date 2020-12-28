@@ -73,10 +73,10 @@
                                                         ?>
                                                         <input type="hidden" name="auhtor_id" value="<?= $getAgenda['author_id'] ?>">
                                                         <input type="hidden" name="agenda_id" value="<?= $getAgenda['agenda_id'] ?>">
-
                                                         <tr>
                                                             <td>
                                                                 <img class="avatar avatar-xl" src="../assets/img/agenda/<?= $getAgenda['agenda_bgimage'] ?>" alt="<?= $getAgenda['agenda_bgimage'] ?>">
+
                                                             </td>
                                                             <td><?= $getAgenda['author_name_surname'] ?></td>
                                                             <td><?= $getAgenda['agenda_title'] ?></td>
@@ -91,8 +91,9 @@
                                                                     <a type="button" data-toggle="tooltip" href="agenda-edit.php?id=<?= $getAgenda['agenda_id']?>" class="btn btn-link btn-primary btn-lg" data-original-title="Düzenle">
                                                                         <i class="fa fa-edit"></i>
                                                                     </a>
-                                                                    <form action="../include/database-operations.php" method="post" ></form>
+                                                                    <form action="../include/database-operations.php" method="post" >
                                                                         <input type="hidden" name="id" value="<?= $getAgenda['agenda_id']?>">
+                                                                        <input type="hidden" name="agenda_img" value="<?= $getAgenda['agenda_bgimage'] ?>">
                                                                         <button type="submit" name="agendaremove" data-toggle="tooltip" class="btn btn-link btn-danger" data-original-title="Kaldır">
                                                                             <i class="fa fa-times"></i>
                                                                         </button>
