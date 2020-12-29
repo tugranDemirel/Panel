@@ -204,10 +204,9 @@
 							</div>
 						</li>
                         <li class="nav-item" style="cursor: pointer; ">
-                            <a href="messages.php">
+                            <a href="../logout.php">
                                 <i style="color: red;" class="fas fa-sign-out-alt"></i>
                                 <p style="color: red;" >Çıkış</p>
-                                <span ></span>
                             </a>
                         </li>
 					</ul>

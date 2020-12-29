@@ -3,8 +3,12 @@
 2-blog yazısı ekleme işlemi yapıldıktan sonra geri bildirim olayındaki hatalar düzeltilmedi
 (İŞlem başarılı başarısız yazısı aynı anda çıkıyor)
 3- Yazıların listelendiği kısımdaki içerik kısmı kötü görüntü yapıyor
+4- kullanıcı eklenmesi
+5- login sayfası
+
 
 DUZELTILEN-YAPILANLAR
 1- kategoriler ve yazarların cancel butonları yapıldı
 2- Bildirim olayı düzeltildi
 3- Yazıların listelendiği kısımdaki içerik kısmı kaldırıldı
+4- kullanıcı user tablsu yapıldı
