@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="335bdf08-0d78-45cb-95ae-67fad2a02668" name="Default Changelist" comment="geri bildirim hatası düzeltilmesi">
-      <change afterPath="$PROJECT_DIR$/data/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/logout.php" afterDir="false" />
+    <list default="true" id="335bdf08-0d78-45cb-95ae-67fad2a02668" name="Default Changelist" comment="login sayfasının hazırlnışı">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hatalar ve duzeltilecekler.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hatalar ve duzeltilecekler.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/data/login.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +50,7 @@
       <workItem from="1609076277754" duration="655000" />
       <workItem from="1609080861458" duration="6164000" />
       <workItem from="1609182406632" duration="8937000" />
-      <workItem from="1609236676577" duration="5097000" />
+      <workItem from="1609236676577" duration="5467000" />
     </task>
     <task id="LOCAL-00001" summary="img alt etiketlerinin oluşturulması">
       <created>1609102451319</created>
@@ -209,7 +206,28 @@
       <option name="project" value="LOCAL" />
       <updated>1609239854981</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="login sayfasının hazırlnışı">
+      <created>1609241910243</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1609241910243</updated>
+    </task>
+    <task id="LOCAL-00024" summary="login sayfasının hazırlnışı">
+      <created>1609241941718</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1609241941718</updated>
+    </task>
+    <task id="LOCAL-00025" summary="login sayfasının hazırlnışı">
+      <created>1609241984268</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1609241984268</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,6 +263,7 @@
     <MESSAGE value="kategoriler ve yazarların cancel butonları yapıldı" />
     <MESSAGE value="geri bilgidirim hatası düzeltilmesi" />
     <MESSAGE value="geri bildirim hatası düzeltilmesi" />
-    <option name="LAST_COMMIT_MESSAGE" value="geri bildirim hatası düzeltilmesi" />
+    <MESSAGE value="login sayfasının hazırlnışı" />
+    <option name="LAST_COMMIT_MESSAGE" value="login sayfasının hazırlnışı" />
   </component>
 </project>
