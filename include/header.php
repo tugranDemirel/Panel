@@ -4,10 +4,12 @@
     session_start();
     ob_start();
     $user = $conn->prepare("SELECT * FROM users WHERE user_id=:id");
+    $setting = $conn->prepare("SELECT * FROM settings");
     $user->execute([
             'id'=>$_SESSION['user_id']
     ]);
-
+    $setting->execute();
+    $getSetting = $setting->fetch(PDO::FETCH_ASSOC);
     $getUser = $user->fetch(PDO::FETCH_ASSOC);
     $loginUser = $user->rowCount();
     if ($loginUser == 0)
@@ -52,7 +54,7 @@
 			<div class="logo-header" data-background-color="dark2">
 				
 				<a href="index.php" class="logo">
-					<img src="../assets/img/logo.svg" alt="navbar brand" class="navbar-brand">
+					<img class="avatar avatar-l" src="../assets/img/logo/<?= $getSetting['setting_logo']?>" alt="<?= $getSetting['setting_logo']?>" class="navbar-brand">
 				</a>
 				<button class="navbar-toggler sidenav-toggler ml-auto" type="button" data-toggle="collapse" data-target="collapse" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon">
@@ -78,41 +80,6 @@
 		<div class="sidebar sidebar-style-2" data-background-color="dark2">
 			<div class="sidebar-wrapper scrollbar scrollbar-inner">
 				<div class="sidebar-content">
-					<div class="user">
-						<div class="avatar-sm float-left mr-2">
-							<img src="../assets/img/profile.jpg" alt="..." class="avatar-img rounded-circle">
-						</div>
-						<div class="info">
-							<a data-toggle="collapse" href="#collapseExample" aria-expanded="true">
-								<span>
-									Tuğran Demirel
-									<span class="user-level">Admin</span>
-									<span class="caret"></span>
-								</span>
-							</a>
-							<div class="clearfix"></div>
-
-							<div class="collapse in" id="collapseExample">
-								<ul class="nav">
-									<li>
-										<a href="#profile">
-											<span class="link-collapse">My Profile</span>
-										</a>
-									</li>
-									<li>
-										<a href="#edit">
-											<span class="link-collapse">Edit Profile</span>
-										</a>
-									</li>
-									<li>
-										<a href="#settings">
-											<span class="link-collapse">Settings</span>
-										</a>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
 					<ul class="nav nav-primary">
 						<li class="nav-item" style="cursor: pointer;">
 							<a href="../data/index.php">
