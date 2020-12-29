@@ -145,6 +145,7 @@ elseif(isset($_POST['authoredit']))
     }
 
 }
+
 elseif(isset($_POST['authorremove']))
 {
     $img = $_POST['author_img'];
@@ -470,6 +471,11 @@ elseif(isset($_POST['agendaremove']))
     }
 }
 
+elseif(isset($_POST['agendacancel']))
+{
+    header('Location: ../data/category-agenda.php');
+}
+
 elseif(isset($_POST['technologyasave']))
 {
     $title = htmlspecialchars(trim($_POST['technologytitle']));
@@ -617,6 +623,11 @@ elseif(isset($_POST['technologyremove']))
     {
         header('Location: ../data/category-technology.php?status=no');
     }
+}
+
+elseif(isset($_POST['technologycancel']))
+{
+    header('Location: ../data/category-technology.php');
 }
 
 elseif(isset($_POST['literaturesave']))
@@ -768,6 +779,11 @@ elseif(isset($_POST['literatureremove']))
     }
 }
 
+elseif(isset($_POST['literaturecancel']))
+{
+    header('Location: ../data/category-literature.php');
+}
+
 elseif(isset($_POST['travelsave']))
 {
     $title = htmlspecialchars(trim($_POST['traveltitle']));
@@ -915,6 +931,11 @@ elseif(isset($_POST['travelremove']))
     {
         header('Location: ../data/category-travel.php?status=no');
     }
+}
+
+elseif(isset($_POST['travelcancel']))
+{
+    header('Location: ../data/category-travel.php');
 }
 
 elseif(isset($_POST['healthLifesave']))
@@ -1065,6 +1086,11 @@ elseif(isset($_POST['healthLiferemove']))
     {
         header('Location: ../data/category-health-life.php?status=no');
     }
+}
+
+elseif(isset($_POST['healthLifecancel']))
+{
+    header('Location: ../data/category-health-life.php');
 }
 
 elseif(isset($_POST['smtpsave']))
