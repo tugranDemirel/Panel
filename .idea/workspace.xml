@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="335bdf08-0d78-45cb-95ae-67fad2a02668" name="Default Changelist" comment="eksikler ve hatalar yazılması">
+    <list default="true" id="335bdf08-0d78-45cb-95ae-67fad2a02668" name="Default Changelist" comment="kategoriler ve yazarların cancel butonları yapıldı">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hatalar ve duzeltilecekler.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hatalar ve duzeltilecekler.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/database-operations.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/database-operations.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/author.php" beforeDir="false" afterPath="$PROJECT_DIR$/data/author.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/category-agenda.php" beforeDir="false" afterPath="$PROJECT_DIR$/data/category-agenda.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/category-health-life.php" beforeDir="false" afterPath="$PROJECT_DIR$/data/category-health-life.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/category-literature.php" beforeDir="false" afterPath="$PROJECT_DIR$/data/category-literature.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/category-technology.php" beforeDir="false" afterPath="$PROJECT_DIR$/data/category-technology.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/category-travel.php" beforeDir="false" afterPath="$PROJECT_DIR$/data/category-travel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/header.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +51,7 @@
       <workItem from="1609076277754" duration="655000" />
       <workItem from="1609080861458" duration="6164000" />
       <workItem from="1609182406632" duration="8937000" />
-      <workItem from="1609236676577" duration="1467000" />
+      <workItem from="1609236676577" duration="2986000" />
     </task>
     <task id="LOCAL-00001" summary="img alt etiketlerinin oluşturulması">
       <created>1609102451319</created>
@@ -188,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609236981459</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="kategoriler ve yazarların cancel butonları yapıldı">
+      <created>1609238153237</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1609238153237</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,17 +233,7 @@
     <MESSAGE value="ilgili kısımların doldurulması" />
     <MESSAGE value="remove kısmı yapıldı ve silinmeyen resimler silindi. Resimlerin silinmemesi için hataya yol açan problemler çözüldü." />
     <MESSAGE value="eksikler ve hatalar yazılması" />
-    <option name="LAST_COMMIT_MESSAGE" value="eksikler ve hatalar yazılması" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/data/category-agenda.php</url>
-          <line>69</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="kategoriler ve yazarların cancel butonları yapıldı" />
+    <option name="LAST_COMMIT_MESSAGE" value="kategoriler ve yazarların cancel butonları yapıldı" />
   </component>
 </project>

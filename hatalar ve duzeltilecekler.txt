@@ -2,7 +2,9 @@
 1- kategoriler ve yazarların cancel butonu yapılmadı
 2-blog yazısı ekleme işlemi yapıldıktan sonra geri bildirim olayındaki hatalar düzeltilmedi
 (İŞlem başarılı başarısız yazısı aynı anda çıkıyor)
-
+3- Yazıların listelendiği kısımdaki içerik kısmı kötü görüntü yapıyor
 
 DUZELTILEN-YAPILANLAR
 1- kategoriler ve yazarların cancel butonları yapıldı
+2- Bildirim olayı düzeltildi
+3- Yazıların listelendiği kısımdaki içerik kısmı kaldırıldı

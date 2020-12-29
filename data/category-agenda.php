@@ -28,17 +28,15 @@
 							</li>
 						</ul>
 					</div>
-					<?php if($_GET['status'] == "yes"){ ?>
-						<div class="alert alert-success mt-2" role="alert">
-							İşlem Başarılı
-						</div>
-						<?php 
-						}
-						elseif($_GET['status'] == "no"){ ?>
-						<div class="alert alert-danger mt-2" role="alert">
-							İşlem Başarısız
-						</div>
-					<?php } ?>
+                    <?php if(isset($_GET['status']) && $_GET['status'] == "yes"){ ?>
+                        <div class="alert alert-success mt-2" role="alert">
+                            İşlem Başarılı
+                        </div>
+                        <?php } elseif(isset($_GET['status']) && $_GET['status']  == "no"){ ?>
+                        <div class="alert alert-danger mt-2" role="alert">
+                            İşlem Başarısız
+                        </div>
+                    <?php } ?>
 					<div class="row">
 						<div class="col-md-12">
                                 <div class="card">
@@ -60,7 +58,6 @@
                                                         <th>Yazar Adı-Soyadı</th>
                                                         <th>Başlık</th>
                                                         <th>Konusu</th>
-                                                        <th>İçerik</th>
                                                         <th>Yayınlanma Tarihi</th>
                                                         <th style="width: 10%">İşlemler</th>
                                                     </tr>
@@ -81,7 +78,6 @@
                                                             <td><?= $getAgenda['author_name_surname'] ?></td>
                                                             <td><?= $getAgenda['agenda_title'] ?></td>
                                                             <td><?= $getAgenda['agenda_subject'] ?></td>
-                                                            <td><?= $getAgenda['agenda_content'] ?></td>
                                                             <td><?= $getAgenda['agenda_datetime'] ?></td>
                                                             <td>
                                                                 <div class="form-button-action">

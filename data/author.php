@@ -31,13 +31,13 @@
 							</li>
 						</ul>
 					</div>
-					<?php if($_GET['status'] == "yes"){ ?>
+					<?php if(isset($_GET['status']) && $_GET['status']  == "yes"){ ?>
 						<div class="alert alert-success mt-2" role="alert">
 							İşlem Başarılı
 						</div>
 						<?php 
 						}
-						elseif($_GET['status'] == "no"){ ?>
+						elseif(isset($_GET['status']) && $_GET['status']  == "no"){ ?>
 						<div class="alert alert-danger mt-2" role="alert">
 							İşlem Başarısız
 						</div>
