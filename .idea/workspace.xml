@@ -4,6 +4,10 @@
     <list default="true" id="335bdf08-0d78-45cb-95ae-67fad2a02668" name="Default Changelist" comment="login sayfasının hazırlnışı">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/data/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/logout.php" beforeDir="false" afterPath="$PROJECT_DIR$/data/logout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hatalar ve duzeltilecekler.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hatalar ve duzeltilecekler.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/database-operations.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/database-operations.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/header.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +36,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -50,7 +55,7 @@
       <workItem from="1609076277754" duration="655000" />
       <workItem from="1609080861458" duration="6164000" />
       <workItem from="1609182406632" duration="8937000" />
-      <workItem from="1609236676577" duration="5467000" />
+      <workItem from="1609236676577" duration="9250000" />
     </task>
     <task id="LOCAL-00001" summary="img alt etiketlerinin oluşturulması">
       <created>1609102451319</created>
@@ -227,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609241984268</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="login sayfasının hazırlnışı">
+      <created>1609242464527</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1609242464527</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -4,8 +4,40 @@
     session_start();
     ob_start();
 
+if (isset($_POST['signin']))
+{
+    $username = htmlspecialchars(trim( $_POST['user_name']));
+    $password = htmlspecialchars(trim( $_POST['user_pass']));
+
+    if ($username && $password)
+    {
+
+        $user = $conn->prepare("SELECT * FROM users WHERE user_name=:user_name AND password=:password");
+        $user->execute(array(
+            'user_name'=> $username,
+            'password'=>$password
+        ));
+
+        $getUser = $user->fetch(PDO::FETCH_ASSOC);
+        $loginUser = $user->rowCount();
+
+        if ($loginUser)
+        {
+            $_SESSION['user_id'] = $getUser['user_id'];
+            header('Location: ../data/index.php');
+        }
+        else
+        {
+            header('Location: ../data/login.php?status=no');
+        }
+
+    }
+    else
+        header('Location: ../data/login.php?status=no');
+}
+
 //author-add
-if(isset($_POST['authorsave']))
+elseif(isset($_POST['authorsave']))
 {
     // filter
     $nameSurname = htmlspecialchars($_POST['nameSurname']);
@@ -1166,4 +1198,5 @@ elseif(isset($_POST['messagereply']))
         header('Location: ../data/messages.php?status=no');
     }
 }
+
 ?>

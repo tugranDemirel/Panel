@@ -1,6 +1,20 @@
 <?php
     error_reporting(0);
     require 'database-operations.php';
+    session_start();
+    ob_start();
+    $user = $conn->prepare("SELECT * FROM users WHERE user_id=:id");
+    $user->execute([
+            'id'=>$_SESSION['user_id']
+    ]);
+
+    $getUser = $user->fetch(PDO::FETCH_ASSOC);
+    $loginUser = $user->rowCount();
+    if ($loginUser == 0)
+    {
+        header('Location: ../data/login.php?status=no');
+        exit();
+    }
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -204,7 +218,7 @@
 							</div>
 						</li>
                         <li class="nav-item" style="cursor: pointer; ">
-                            <a href="../logout.php">
+                            <a href="../data/logout.php">
                                 <i style="color: red;" class="fas fa-sign-out-alt"></i>
                                 <p style="color: red;" >Çıkış</p>
                             </a>

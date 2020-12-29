@@ -5,6 +5,7 @@
 3- Yazıların listelendiği kısımdaki içerik kısmı kötü görüntü yapıyor
 4- kullanıcı eklenmesi
 5- login sayfası
+6- login olayı
 
 
 DUZELTILEN-YAPILANLAR
@@ -12,3 +13,5 @@ DUZELTILEN-YAPILANLAR
 2- Bildirim olayı düzeltildi
 3- Yazıların listelendiği kısımdaki içerik kısmı kaldırıldı
 4- kullanıcı user tablsu yapıldı
+5- login sayfası yapıldı
+6- login olayı yapıldı
