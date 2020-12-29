@@ -1,4 +1,6 @@
 - kategoriler ve yazarların cancel butonu yapılmadı
+-blog yazısı ekleme işlemi yapıldıktan sonra geri bildirim olayındaki hatalar düzeltilmedi
+(İŞlem başarılı başarısız yazısı aynı anda çıkıyor)
 
 + Yukelenemeyn resimler düzeltildi. Kaldırma işleminde silinmeyen resimler silindi
 + Kategorilerin ve yazaların remove kısmı yapıldı.
